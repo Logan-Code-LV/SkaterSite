@@ -1,0 +1,169 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("./assets/bg.jpg");
+  background-size: cover;
+}
+/* Red Heading Items */
+.row1 {
+  display: flex;
+  justify-content: center;
+}
+
+.cameraman {
+  display: flex;
+}
+
+.topitems {
+  font-family: Arial;
+  font-size: 12px;
+  background-color: rgb(167, 31, 43);
+  margin: 5px;
+  text-align: center;
+  color: white;
+  width: 350px;
+}
+
+.mainphoto {
+  display: block;
+  height: 400px;
+  width: 50%;
+  border: 20px solid white;
+  position: relative;
+  left: 25%;
+}
+
+.logo {
+  position: relative;
+  left: -23%;
+  width: 20%;
+  height: 375px;
+}
+.readings {
+  display: flex;
+  justify-content: center;
+}
+.textblocks {
+  justify-content: space-between;
+  width: 350px;
+  height: 525px;
+  margin: 10px;
+  padding: 60px;
+  font-family: Arial;
+  font-size: 15px;
+  background-color: white;
+  border-bottom: solid grey 5px;
+}
+
+.textblocks h3 {
+  font-size: 20px;
+}
+
+.date {
+  color: grey;
+}
+
+.textblocks a {
+  justify-content: center;
+  align-self: auto;
+}
+
+.skaterbox {
+  position: relative;
+  left: 20%;
+  width: min-content;
+}
+
+.skaters {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "header main side"
+    "footer footer side";
+}
+
+.skaters img {
+  place-self: stretch;
+}
+
+.rod,
+.tommy,
+.steve,
+.lance {
+  border: solid 9px white;
+  margin: 5px;
+}
+
+.lance {
+  grid-area: header;
+}
+
+.rod {
+  grid-area: main;
+}
+
+.tommy {
+  grid-area: side;
+}
+
+.steve {
+  grid-area: footer;
+}
+
+.left {
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+.mid {
+  position: absolute;
+  top: 14%;
+  left: 42%;
+  font-size: 42px;
+  color: white;
+  font-weight: bold;
+}
+
+.right {
+  position: absolute;
+  top: 8%;
+  left: 57%;
+  font-size: 76px;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom {
+  position: relative;
+  top: -156%;
+  left: 104%;
+  font-size: 61px;
+  color: white;
+  font-weight: bold;
+}
+
+.skateboards {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 25%;
+}
+
+.skateboards img {
+  padding: 3%;
+}

@@ -167,3 +167,37 @@ body {
 .skateboards img {
   padding: 3%;
 }
+
+.contact {
+  display: flex;
+  position: relative;
+  background-color: white;
+  width: 50%;
+  left: 25%;
+}
+
+.wording {
+  padding: 3%;
+  position: relative;
+  width: 51%;
+}
+
+#name,
+#email,
+#message {
+  border: solid grey 3px;
+}
+
+.inputs input {
+  padding: 3px;
+  margin: 10px;
+  width: 275%;
+  height: 26%;
+}
+.inputs input {
+  padding: 3px;
+}
+
+.button {
+  display: inline;
+}
